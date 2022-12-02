@@ -1,0 +1,8 @@
+<view class="box">
+  <button bindtap="toggle">显示 root-portal</button>
+</view>
+<drawer show="{{show}}" bindclose="close">
+  <view slot="popup">
+    hello
+  </view>
+</drawer>
